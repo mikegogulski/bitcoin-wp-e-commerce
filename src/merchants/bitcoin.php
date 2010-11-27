@@ -312,10 +312,6 @@ function form_bitcoin() {
     . $bitcoin_confirms . "' name='bitcoin_confirms' /></td>
 		</tr>
 		<tr>
-			<td>&nbsp;</td>
-			<td><small>Debug mode is used to write HTTP communications between the Bitcoin server and your host to a log file.</small></td>
-		</tr>
-		<tr>
 			<td colspan='2'>
 				<strong>Enter the template for payment instructions to be give to the customer on checkout.</strong><br />
 				<textarea cols='40' rows='9' name='wpsc_options[payment_instructions]'>"
@@ -331,7 +327,7 @@ function form_bitcoin() {
 		</tr>
 		<tr>
 			<td colspan='2'>
-				Like Bitcoin for WP e-Commerce? Your gifts to 1DcZfySDvUoNBzf2mwReVy3VL93WtwnALr are <strong>greatly</strong>. Thank you!
+				Like Bitcoin for WP e-Commerce? Your gifts to 1DcZfySDvUoNBzf2mwReVy3VL93WtwnALr are <strong>greatly</strong> appreciated. Thank you!
 			</td>
 		</tr>
 	";
